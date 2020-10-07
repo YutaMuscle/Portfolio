@@ -63,3 +63,22 @@ html body{
     line-height: 30px;
     word-wrap: break-word;
 }
+
+#carrer_body{
+    display: flex;
+    justify-content: center;
+}
+
+.carrer-timeline-school{
+    margin-top: 60px;
+    width: 600px;
+}
+
+.carrer-timeline-school p{
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+#carrer-timeline-img img{
+    height: 1050px;
+}
