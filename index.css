@@ -41,6 +41,9 @@ html body{
     background:linear-gradient(transparent 60%, #00FBBF 90%);
 }
 
+.under-liner-orange{
+    background:linear-gradient(transparent 60%, #FBB500 90%);
+}
 
 #self_introduce_body{
     display:flex;
