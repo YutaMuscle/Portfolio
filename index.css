@@ -1,6 +1,7 @@
 html body{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #top_div {
@@ -11,6 +12,7 @@ html body{
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin-bottom: 80px;
 }
 
 #top_div h1{
@@ -19,7 +21,13 @@ html body{
     opacity: 0.7;
 }
 
- html,body,#self_introduce{
+/*common---------------------------------------------------------------------------------------------------------*/
+
+#self_introduce, #carrer, #engineer_reason{
+    margin-bottom: 80px;
+}
+
+.section-hundred-percent-div{
     height: 100%;
 } 
 
@@ -45,6 +53,10 @@ html body{
     background:linear-gradient(transparent 60%, #FBB500 90%);
 }
 
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+
 #self_introduce_body{
     display:flex;
     justify-content: center;
@@ -62,10 +74,12 @@ html body{
     width: 40%;
     display: flex;
     align-items: center;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
     word-wrap: break-word;
 }
+
+/*---------------------------------------------------------------------------------------------------*/
 
 #carrer_body{
     display: flex;
@@ -73,15 +87,40 @@ html body{
 }
 
 .carrer-timeline-school{
-    margin-top: 60px;
-    width: 600px;
+    width: 700px;
+}
+
+.carrer-timeline-school h2{
+    font-size: 30px;
 }
 
 .carrer-timeline-school p{
     line-height: 30px;
+    margin-top: 30px;
     margin-bottom: 80px;
+    font-size: 19px;
 }
 
 #carrer-timeline-img img{
     height: 1050px;
+    padding-top: 90px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+#engineer_reason_body{
+    display: flex;
+    justify-content: center;
+}
+
+#engineer_reason_body p{
+    margin-top: 0px;
+    font-size: 20px;
+    width: 1000px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.important-text{
+    color: red;
 }
