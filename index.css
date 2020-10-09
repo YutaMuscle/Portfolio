@@ -23,7 +23,7 @@ html body{
 
 /*common---------------------------------------------------------------------------------------------------------*/
 
-#self_introduce, #carrer, #engineer_reason{
+#self_introduce, #carrer, #engineer_reason, #hobby{
     margin-bottom: 80px;
 }
 
@@ -51,6 +51,10 @@ html body{
 
 .under-liner-orange{
     background:linear-gradient(transparent 60%, #FBB500 90%);
+}
+
+.under-liner-green{
+    background:linear-gradient(transparent 60%, #88EB0B 90%);
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -123,4 +127,34 @@ html body{
 
 .important-text{
     color: red;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#hobby{
+    background-image: url(./Portfolio-img/filtered_hobby_training.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hobby_head{
+    margin-top: 0px;
+    font-size: 80px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+#hobby_body{
+    display: flex;
+    justify-content: center;
+}
+
+#hobby p{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    width: 900px;
 }
